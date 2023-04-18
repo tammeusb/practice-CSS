@@ -1,7 +1,18 @@
+#title {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #350e7e;
+    color: white;
+}
+
 .apple {
     color: rgb(221, 122, 122);
 }
 
 .lime{
     color: #a6f188
+}
+
+.apple.lime {
+    color: #e77b22;
 }
