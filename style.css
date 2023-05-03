@@ -16,3 +16,12 @@
 .apple.lime {
     color: #e77b22;
 }
+
+.grape, .eggplant {
+    color: purple;
+}
+
+.vine .grape {
+    color: rgb(187, 219, 187);
+    background-color: black;
+}
