@@ -1,0 +1,28 @@
+#spinach {
+    color: green;
+}
+
+#orange {
+    color: orange;
+}
+
+.purple .carrot {
+    color: purple;
+}
+
+.carrot {
+    color: orange;
+}
+
+.pom {
+    color: red;
+}
+
+.unripe {
+    color: green;
+}
+
+.ripe {
+    color: rgb(238, 255, 7);
+    background-color: rgb(46, 85, 85);
+}

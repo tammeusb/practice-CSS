@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cascade Practice</title>
+    <link rel="stylesheet" href="./cascade.css">
+</head>
+<body>
+    <p id="spinach">I am spinach. I am colored green via ID selector.</p>
+   <p class="carrot">I am a carrot. I am colored orange via class selector.</p>
+   <p id="spinach" class="carrot">I am spinach and a carrot. I'm colored green via ID selector overriding class selector.</p>
+   
+   <!--Testing specificity-->
+
+   <div class="purple">
+        <p class="carrot">I am a carrot. I am colored purple because my class is specified via descendent combinator.</p>
+   </div>
+   <div class="purple">
+        <p id="orange" class="carrot"> I am a carrot. I am colored orange because my ID 'orange' overrides my class 'carrot'.</p>
+   </div>
+
+   <div class="pom">
+        <p class="pom">I am red like a pomegranate; 
+            <p>my many nested paragraphs
+                <p>all inherit my 
+                    <p>redness because there
+                        <p> is no universal selector.</p>
+                    </p>
+                </p>
+            </p>
+        </p>
+   </div>
+
+   <div>
+        <p class ="unripe ripe">
+            I am a banana. Even though I have two classes, viz., ripe and unripe, I am yellow like a ripe banana because ripe is defined <em>last.</em>
+        </p>
+   </div>
+
+   <!--end-->
+   <p>I have no specificity.</p>
+
+    <a href="./../index.html">Homepage</a>
+</body>
+</html>
